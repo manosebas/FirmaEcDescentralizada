@@ -1,7 +1,7 @@
 # Decentralized FirmaEC
 
 ## Description
-This project involves the development and implementation of a decentralized e-signature system tailored for Ecuador, with three distinct yet interrelated components. The system is designed to ensure the secure signing and verification of documents and certificates, using the e-signature standards mandated by the Ecuadorian government. The project is divided into three key parts:
+This project involves the development and implementation of a decentralized e-signature system adapted to a public institution in Ecuador, with three distinct yet interrelated components. The system is designed to ensure the secure signing and verification of documents and certificates, using the e-signature standards mandated by the Ecuadorian government. The project is divided into three key parts:
 
 ### 1. Architecture and Foundation
 This component details the setup and configuration of the entire system, based on the guidelines from the Minka manual. It involves compiling necessary packages, setting up a WildFly server, deploying a Docker container with PostgreSQL, creating custom APIs, and establishing secure communication with the Ministry of Telecommunications (MINTEL). The outcome is a fully functional backend capable of signing documents, validating signatures, and verifying certificates with MINTEL.
