@@ -15,13 +15,13 @@ This component details the setup and configuration of the entire system, based o
 
 ### 2. Transversal Web Page
 Building on the previously established architecture, a web application was created to provide users with a platform for signing documents, validating e-signatures, and verifying certificates directly with MINTEL. The web application includes three main modules:
-
+ ![Document Signing Step 1](./images/3.png)
+ 
 - **Sign Document Module:**
   - Users input their ID, select the type of certificate, and upload the document to be signed. The system displays the document, indicating whether it has been signed, and provides details on the validity of the signatures and the identities of previous signatories.
   
   **Document Signing Workflow:**
   - **Step 1:** User inputs ID and selects certificate type, uploads the document.
-  ![Document Signing Step 1](./images/3.png)
   - **Step 2:** Document details are displayed, showing signatures and validity.
   ![Document Signing Step 2](./images/4.png)
   - **Step 3:** User selects where to place the digital signature and clicks "Sign."
